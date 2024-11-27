@@ -1,0 +1,193 @@
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+    margin-top: 58px;
+}
+
+/* Header Styles */
+
+header {
+    background: rgb(255, 255, 255);
+}
+
+
+
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 475px;
+}
+
+.header-left img {
+    padding-right: 50px;
+    font-size: 26px;
+    font-weight: 200;
+    line-height: 33px;
+    letter-spacing: 0%;
+
+}
+
+.header-left h3 {
+    color: rgb(35, 51, 72);
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-right a:hover {
+    transition: all 0.05s ease-in-out;
+    color: red;
+}
+
+.header-right h2 {
+    color: rgb(31, 21, 52);
+    opacity: 0.5;
+}
+
+
+.header-right a {
+    color: rgb(31, 21, 52);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+    letter-spacing: 0%;
+    opacity: 0.5;
+    
+}
+
+
+/* Button Section Styles */
+
+.button-parent {
+    display: flex;
+}
+
+
+
+.button-wrapper-left h2 {
+    width: 421.21px;
+    height: 98.25px;
+    left: 29.55%;
+    right: -25.27%;
+    top: 89.79%;
+    bottom: -23.33%;
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 176px;
+    margin-bottom: 26px;
+    
+}
+
+
+.button-wrapper-left p {
+    width: 440px;
+    height: 84.21px;
+    color: rgb(125, 121, 135);
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-bottom: 35px;
+    margin-right: 170px;
+
+}
+
+.button-wrapper-left button {
+    width: 123px;
+    height: 20.18px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+    letter-spacing: 0%;
+    border-radius: 55px;
+    background: rgb(69, 143, 246);
+    width: 197.75px;
+    height: 49.12px;
+
+}
+
+.button-wrapper-left button:active{
+    background-color: red;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.button-wrapper-right img {
+    width: 609px;
+    height: 466.68px;
+    margin-top: 101px;
+}
+
+
+/* Cards Section */
+
+
+.text h2 {
+    width: 212px;
+    height: 56.74px;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 56px;
+    letter-spacing: 0%;
+    margin-top: 90px;
+
+}
+
+
+
+.text h2 {
+    margin: 0 480px;
+    margin-bottom: 60px;
+}
+
+.text p  {
+    color: rgb(125, 121, 135);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 0%;
+    width: 952px;
+    height: 60.8px;
+    text-align: center;
+    
+}
+
+
